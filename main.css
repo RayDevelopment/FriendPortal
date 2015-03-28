@@ -1,4 +1,40 @@
 
 body {
-  background-color: #A9C6FF;
+    background-color: linear-gradient(to bottom right, #47A3FF, #66CCFF);
+}
+
+
+a:link {
+    
+}
+
+a:visited {
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    
+    color: #FF9900;
+    
+    font-family: "Georgia";
+    font-size: 96px;
+    font-style: oblique;
+    
+    text-shadow: 2px 2px 4px #000000;
+    transition: color 2s;
+}
+
+.title:hover {
+    color: #FF0000;
 }
