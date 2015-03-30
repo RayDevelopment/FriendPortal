@@ -40,11 +40,9 @@
 </head>
 <body>
     <form method='post'>
-        Username: <input type='text' name='username' id='username' />
-        Password: <input type='password' name='password' id='password' />
-        <?php
-            echo $error;
-        ?>
+        Username: <input type='text' name='username' id='username' maxlength="255" />
+        Password: <input type='password' name='password' id='password' maxlength="255" />
+        <?php echo $error; ?>
         <br />
         <input type='submit' class="btn btn-primary btn-sm" />
     </form>
