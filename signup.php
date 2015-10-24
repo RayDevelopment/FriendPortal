@@ -57,7 +57,7 @@
         Age (Year): <input type="number" name="age-year" id="age-year" maxlength="4" /> <br />
         Age (Month): <select name="age-month" id="month">
             <option value="JANUARY">January</option>
-            <option value="FEBUARY">Febuary</option>
+            <option value="FEBRUARY">February</option>
             <option value="MARCH">March</option>
             <option value="APRIL">April</option>
             <option value="MAY">May</option>
