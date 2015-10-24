@@ -9,7 +9,7 @@ first-name varchar(255) NOT NULL,
 last-name varchar(255) NOT NULL,
 
 age-year tinyint(255) NOT NULL,
-age-month ENUM('JANUARY', 'FEBUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER') NOT NULL,
+age-month ENUM('JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER') NOT NULL,
 age-day tinyint(255) NOT NULL,
 
 PRIMARY KEY (username)
